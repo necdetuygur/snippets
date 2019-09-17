@@ -1,0 +1,1 @@
+javascript:{ if(window.top.location.href != "https://www.sabah.com.tr/imsakiye/izmir"){ window.top.location.href = "https://www.sabah.com.tr/imsakiye/izmir"; } i = setInterval(()=>{document.title = $('#remainingTime span').text();}, 1000); }

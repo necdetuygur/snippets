@@ -1,0 +1,1 @@
+javascript:{ if(window.top.location.href != "https://iftaranekadarkaldi.com/"){ window.top.location.href = "https://iftaranekadarkaldi.com/"; } i = setInterval(()=>{document.title = [$('#saat').text(),$('#dakika').text(),$('#saniye').text()].join(":");}, 1000); }
