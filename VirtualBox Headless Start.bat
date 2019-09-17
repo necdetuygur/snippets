@@ -1,0 +1,1 @@
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm "{00000000-0000-0000-0000-000000000000}" --type headless

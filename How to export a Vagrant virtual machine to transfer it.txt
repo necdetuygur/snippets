@@ -1,0 +1,5 @@
+https://stackoverflow.com/a/42633801
+
+vagrant package --base [machine name as it shows in virtual box] --output /Users/myuser/Documents/Workspace/my.box
+vagrant init [machine name as it shows in virtual box] /Users/myuser/Documents/Workspace/my.box
+vagrant up
