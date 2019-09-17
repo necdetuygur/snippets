@@ -1,0 +1,11 @@
+<h1>TAR.GZ GENERATOR</h1>
+<input type="text" onchange="r()" onkeyup="r()" id="path" placeholder="PATH">
+<pre id="code"></pre>
+
+<script>
+function r(){
+  s = document.getElementById('path').value;
+  t = "tar -zcvf \"" + s + "_$(date '+%Y%m%d_%H%M%S').tar.gz\" " + s;
+  document.getElementById('code').innerHTML = t;
+}
+</script>

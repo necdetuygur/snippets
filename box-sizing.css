@@ -1,0 +1,5 @@
+/* https://stackoverflow.com/a/16907625 */
+input[type=text],
+input[type=password] {
+    box-sizing : border-box;
+}
