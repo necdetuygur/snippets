@@ -1,0 +1,1 @@
+find . -iname '*php' | xargs grep 'wanted' -sl

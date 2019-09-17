@@ -1,0 +1,1 @@
+while true ; do clear; YOUR_COMMAND ; sleep 9 ; done

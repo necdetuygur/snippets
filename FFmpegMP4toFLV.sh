@@ -1,0 +1,1 @@
+ffmpeg -i old.mp4 -c:v libx264 -crf 19 new.flv
