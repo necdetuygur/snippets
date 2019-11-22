@@ -16,6 +16,7 @@ code --install-extension hollowtree.vue-snippets
 code --install-extension HookyQR.beautify
 code --install-extension jkjustjoshing.vscode-text-pastry
 code --install-extension Kelvin.vscode-sshfs
+code --install-extension kokororin.vscode-phpfmt
 code --install-extension mhutchie.git-graph
 code --install-extension miguelsolorio.min-theme
 code --install-extension mrmlnc.vscode-apache
@@ -47,13 +48,21 @@ code --install-extension zhuangtongfa.material-theme
 	"workbench.iconTheme": "vscode-icons",
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"editor.fontSize": 13,
 	"editor.formatOnPaste": true,
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.snippetSuggestions": "top",
 	"auto-close-tag.fullMode": true,
 	"auto-close-tag.SublimeText3Mode": true,
 	"workbench.colorTheme": "One Dark Pro",
+	"[php]": {
+		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
+	},
+	"phpfmt.exclude": [
+		"AllmanStyleBraces"
+	],
+	"phpfmt.smart_linebreak_after_curly": true,
+	"phpfmt.psr2": false,
+	"phpfmt.detect_indent": true
 }
 
 // keybindings.json
