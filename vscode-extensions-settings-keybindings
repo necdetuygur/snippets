@@ -25,6 +25,8 @@ code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.Go
 code --install-extension ms-vscode.sublime-keybindings
 code --install-extension nmsmith89.incrementor
+code --install-extension ritwickdey.LiveServer
+code --install-extension tomoki1207.selectline-statusbar
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wmaurer.change-case
