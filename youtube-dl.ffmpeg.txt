@@ -1,0 +1,24 @@
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+# MP4 BEST
+youtube-dl \
+-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' \
+-o '%(title)s.%(ext)s' \
+'<url>'
+
+# MP4 480
+youtube-dl \
+-f 'bestvideo[height<=480]+bestaudio/best[height<=480]' \
+-o '%(title)s.%(ext)s' \
+'<url>'
+
+# MP3
+youtube-dl \
+-x \
+--audio-format 'mp3' \
+-o '%(title)s.%(ext)s' \
+'<url>'
