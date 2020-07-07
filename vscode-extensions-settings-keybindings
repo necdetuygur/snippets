@@ -77,70 +77,78 @@ code --install-extension zhuangtongfa.material-theme
 
 // keybindings.json
 [
-  {
-    "command": "incrementor.incByOne",
-    "key": "ctrl+up"
-  },
-  {
-    "command": "incrementor.decByOne",
-    "key": "ctrl+down"
-  },
-  {
-    "command": "incrementor.incByTenth",
-    "key": "ctrl+alt+up"
-  },
-  {
-    "command": "incrementor.decByTenth",
-    "key": "ctrl+alt+down"
-  },
-  {
-    "command": "incrementor.incByTen",
-    "key": "ctrl+alt+cmd+up"
-  },
-  {
-    "command": "incrementor.decByTen",
-    "key": "ctrl+alt+cmd+down"
-  },
-  {
-    "key": "ctrl+shift+d",
-    "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "-workbench.action.quickOpen"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "editor.emmet.action.expandAbbreviation",
-    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-  },
-  {
-    "key": "tab",
-    "command": "-editor.emmet.action.expandAbbreviation",
-    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "emmet.expandAbbreviation"
-  },
-  {
-    "key": "ctrl+shift+u",
-    "command": "editor.action.transformToUppercase",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+l",
-    "command": "editor.action.transformToLowercase",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+oem_8",
-    "command": "alignment.align"
-  }
+    {
+        "key": "ctrl+oem_minus",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+oem_minus",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "command": "incrementor.incByOne",
+        "key": "ctrl+up"
+    },
+    {
+        "command": "incrementor.decByOne",
+        "key": "ctrl+down"
+    },
+    {
+        "command": "incrementor.incByTenth",
+        "key": "ctrl+alt+up"
+    },
+    {
+        "command": "incrementor.decByTenth",
+        "key": "ctrl+alt+down"
+    },
+    {
+        "command": "incrementor.incByTen",
+        "key": "ctrl+alt+cmd+up"
+    },
+    {
+        "command": "incrementor.decByTen",
+        "key": "ctrl+alt+cmd+down"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.emmet.action.expandAbbreviation",
+        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "tab",
+        "command": "-editor.emmet.action.expandAbbreviation",
+        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "emmet.expandAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+oem_8",
+        "command": "alignment.align"
+    }
 ]
