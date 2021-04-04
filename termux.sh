@@ -1,3 +1,7 @@
+pkg install -y golang git openssh tsu wget curl proot
+termux-setup-storage
+termux-chroot
+
 pkg install -y golang git openssh ffmpeg python nodejs tsu wget curl proot
 
 termux-setup-storage
